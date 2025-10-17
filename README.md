@@ -8,6 +8,12 @@ It delivers a warm, premium aesthetic with smooth animations, an interactive moc
 
 ---
 
+## 🌍 Live Demo
+🔗 **[View the Website Here](https://podlist-landing.vercel.app/)**  
+
+---
+
+
 ## 🎨 UI & Design
 - 📱 **UI source:** The app design was taken from **Figma** for visual inspiration and mockup usage.  
 - 🎨 **Color Palette:**
@@ -37,11 +43,6 @@ It delivers a warm, premium aesthetic with smooth animations, an interactive moc
 - 📱 Interactive mockup — switch between app screens on click  
 - 💡 Minimal, modern SaaS layout  
 - 🚀 Deployed live on **Vercel**
-
----
-
-## 🌍 Live Demo
-🔗 **[View the Website Here](https://podlist-landing.vercel.app/)**  
 
 ---
 
