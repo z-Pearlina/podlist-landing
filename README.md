@@ -46,12 +46,4 @@ It delivers a warm, premium aesthetic with smooth animations, an interactive moc
 
 ---
 
-## 🧠 What I Learned
-- How to design and build SaaS-style landing pages  
-- Using Framer Motion for clean, scroll-based animations  
-- Deploying modern React apps via Vercel  
-- Applying consistent design systems and color themes  
-
----
-
 ⭐ **If you liked this project, please give it a star!** ⭐
