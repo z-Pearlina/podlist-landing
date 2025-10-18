@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 import podlistHomeImage from '../assets/podlist_home_mockup.png';
 import podlistPlayerImage from '../assets/podlist_player_mockup.png';
 
@@ -20,13 +19,11 @@ const OfflineIcon = () => (
     </svg>
 );
 
-
 const features = [
   { icon: <DiscoverIcon />, title: 'Personalized Discovery Engine', description: 'Find shows tailored to your taste with our smart recommendation algorithm.' },
   { icon: <PlaylistIcon />, title: 'Curate & Share Playlists', description: 'Create custom playlists for any mood and share them with friends in one click.' },
   { icon: <OfflineIcon />, title: 'Listen Anywhere, Offline', description: 'Download any episode to your device and enjoy listening on the go, no signal needed.' },
 ];
-
 
 const FeaturesSection = () => {
   const containerVariants = { hidden: {}, visible: { transition: { staggerChildren: 0.2 } } };
@@ -34,7 +31,6 @@ const FeaturesSection = () => {
 
   return (
     <section className="relative overflow-hidden bg-black text-white pt-16 pb-24 sm:pt-20 sm:pb-32">
-      
       <div
         className="absolute top-1/4 left-0 w-[50rem] h-[50rem] -translate-x-1/2 bg-gradient-radial from-[#820021]/20 to-transparent blur-3xl"
         aria-hidden="true"
@@ -42,7 +38,6 @@ const FeaturesSection = () => {
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-20 items-center">
-          
           <motion.div
             className="space-y-12"
             variants={containerVariants}
@@ -75,31 +70,30 @@ const FeaturesSection = () => {
           </motion.div>
 
           <motion.div 
-            className="relative h-[500px] lg:h-[600px] flex items-center justify-center"
+            className="relative h-[450px] sm:h-[500px] lg:h-[600px] flex items-center justify-center"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
             <motion.div
-              className="absolute w-[250px] sm:w-[280px] drop-shadow-[0_20px_30px_rgba(154,21,67,0.3)]"
+              className="absolute w-[200px] sm:w-[280px] drop-shadow-[0_20px_30px_rgba(154,21,67,0.3)]"
               style={{ top: '5%', right: '5%', rotate: '8deg' }}
-              animate={{ y: [-10, 10] }}
+              animate={{ y: [-8, 8] }}
               transition={{ duration: 4, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut' }}
             >
               <img src={podlistPlayerImage} alt="Podlist player screen" className="rounded-3xl sm:rounded-[40px]" />
             </motion.div>
 
              <motion.div
-              className="absolute w-[250px] sm:w-[280px] drop-shadow-[0_25px_40px_rgba(253,101,202,0.25)]"
+              className="absolute w-[200px] sm:w-[280px] drop-shadow-[0_25px_40px_rgba(253,101,202,0.25)]"
               style={{ bottom: '5%', left: '5%', rotate: '-6deg' }}
-               animate={{ y: [10, -10] }}
+               animate={{ y: [8, -8] }}
               transition={{ duration: 4, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut', delay: 0.3 }}
             >
               <img src={podlistHomeImage} alt="Podlist home screen" className="rounded-3xl sm:rounded-[40px]" />
             </motion.div>
           </motion.div>
-
         </div>
       </div>
     </section>

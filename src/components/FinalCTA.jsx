@@ -28,9 +28,7 @@ const FinalCTA = () => {
   const appDownloadLink = "https://www.podlist.com/download"; 
 
   return (
-    
     <section className="relative bg-black text-white pt-0 pb-24 sm:pb-32 overflow-hidden">
-      
       <div
         className="absolute top-1/2 left-1/2 w-[60rem] h-[60rem] -translate-x-1/2 -translate-y-1/2 bg-gradient-radial from-[#9A1543]/20 to-transparent blur-3xl"
         aria-hidden="true"
@@ -56,7 +54,7 @@ const FinalCTA = () => {
           Stream. Discover. Connect. Your podcasts, reimagined.
         </motion.p>
         <motion.div
-          className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4"
+          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           variants={itemVariants}
         >
           <a
@@ -76,7 +74,6 @@ const FinalCTA = () => {
             <span className="relative">Get it on Google Play</span>
           </a>
         </motion.div>
-        
         
         <motion.div
           className="mt-20 flex flex-col items-center"

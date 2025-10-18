@@ -24,16 +24,12 @@ const Footer = () => {
       viewport={{ once: true, amount: 0.2 }}
       variants={footerVariants}
     >
-      
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#FD65CA]/40 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center gap-y-8">
-        
-        
         <h3 className="text-3xl font-bold text-white">Podlist</h3>
         
-        
-        <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+        <nav className="flex flex-wrap justify-center gap-x-6 gap-y-3">
           {navLinks.map((link) => (
             <a
               key={link}
@@ -45,13 +41,11 @@ const Footer = () => {
           ))}
         </nav>
 
-        
         <div className="flex justify-center items-center space-x-6">
           <a href="#" aria-label="LinkedIn" className="text-2xl transition-all duration-300 hover:text-white hover:-translate-y-0.5"><FaLinkedin /></a>
           <a href="#" aria-label="Instagram" className="text-2xl transition-all duration-300 hover:text-white hover:-translate-y-0.5"><FaInstagram /></a>
           <a href="#" aria-label="Twitter" className="text-2xl transition-all duration-300 hover:text-white hover:-translate-y-0.5"><FaTwitter /></a>
         </div>
-        
         
         <div className="w-full pt-8 mt-4 border-t border-white/10 text-center">
           <p className="text-sm text-gray-500">
