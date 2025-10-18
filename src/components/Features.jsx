@@ -57,7 +57,7 @@ const FeaturesSection = () => {
             {features.map((feature, index) => (
               <motion.div key={index} className="flex items-start space-x-5 group" variants={itemVariants}>
                 <div className="flex-shrink-0 bg-[#1C1C1C] border border-white/10 p-4 rounded-xl transition-all duration-300 group-hover:bg-[#9A1543]/20 group-hover:border-[#FD65CA]/50">
-                   <div className="text-[#FD65CA] transition-transform duration-300 group-hover:scale-110">
+                   <div className="text-[#FD65CA] transition-all duration-300 group-hover:scale-110 group-hover:drop-shadow-[0_0_12px_#FD65CA]">
                     {feature.icon}
                    </div>
                 </div>
