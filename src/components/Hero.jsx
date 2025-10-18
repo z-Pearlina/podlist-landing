@@ -28,7 +28,7 @@ const Hero = ({ featuresRef }) => {
 
   return (
     <section
-      className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-black"
+      className="relative w-full min-h-screen flex flex-col justify-center overflow-hidden bg-black"
     >
       <div className="absolute inset-0 z-0 opacity-40">
         <motion.div
@@ -43,7 +43,7 @@ const Hero = ({ featuresRef }) => {
         />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-12 items-center px-6 md:px-8">
+      <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-x-12 items-center px-6 md:px-8 pt-28 pb-16 md:pt-0 md:pb-0">
         <motion.div
           className="text-center md:text-left space-y-5"
           variants={textContainerVariants}
@@ -52,7 +52,7 @@ const Hero = ({ featuresRef }) => {
         >
           <motion.h1
             variants={textItemVariants}
-            className="text-5xl md:text-6xl font-bold leading-tight text-white"
+            className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-white"
           >
             Enjoy Your Podcast,
             <br />
