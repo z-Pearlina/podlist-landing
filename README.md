@@ -1,16 +1,49 @@
-# React + Vite
+# 🎧 Podlist — Modern Podcast App Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🪄 Overview
+**Podlist** is a modern, elegant **SaaS landing page** designed for a podcast mobile application.  
+It delivers a warm, premium aesthetic with smooth animations, an interactive mockup, and a polished layout built to highlight the app’s core features.
 
-Currently, two official plugins are available:
+> This project was created as a personal portfolio piece to practice building a fully responsive, animated landing page using modern frontend tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌍 Live Demo
+🔗 **[View the Website Here](https://podlist-landing.vercel.app/)**  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎨 UI & Design
+- 📱 **UI source:** The app design was taken from **Figma** for visual inspiration and mockup usage.  
+- 🎨 **Color Palette:**
+  - Deep Burgundy → `#820021`
+  - Rose Brown → `#9A1543`
+  - Soft Pink → `#FD65CA`
+- 💫 **Mood:** Warm, elegant, and premium — inspired by high-end SaaS products.
+
+---
+
+## ⚙️ Tech Stack & Tools
+
+| Tool | Purpose |
+|------|----------|
+| ⚛️ **React** | Core framework for building the landing page |
+| 💨 **TailwindCSS** | For styling and responsive design |
+| 🎞️ **Framer Motion** | Animations and smooth transitions |
+| 🧱 **Vite** | Development environment and build tool |
+| 🧭 **Figma** | UI mockup and visual references |
+| ▲ **Vercel** | Deployment and hosting |
+
+---
+
+## ✨ Key Features
+- 🖥️ Responsive layout for all screen sizes  
+- 🎬 Framer Motion scroll and click animations  
+- 📱 Interactive mockup — switch between app screens on click  
+- 💡 Minimal, modern SaaS layout  
+- 🚀 Deployed live on **Vercel**
+
+---
+
+⭐ **If you liked this project, please give it a star!** ⭐
